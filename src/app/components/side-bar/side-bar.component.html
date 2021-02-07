@@ -1,0 +1,39 @@
+<div class="main-container">
+  <div class="side-title">
+    {{title}}
+  </div>
+  <a mat-raised-button class="side-subtitle c-btn" color="primary" [href]="linkExp" target="_blank">EXPLANATION</a>
+  <div class="side-subtitle">
+    CONSTANTS
+  </div>
+  <div class="fields" *ngIf="params.length > 0">
+    <div class="field" *ngFor="let field of params" matTooltip="{{field[1].message ? field[1].message : ''}}">
+      <mat-form-field *ngIf="field[1].type == 'number'">
+        <mat-label>{{field[0]}}</mat-label>
+        <input matInput [value]="field[1].value" (change)="fieldChange($event, field)">
+      </mat-form-field>
+      <mat-form-field *ngIf="field[1].type == 'color'">
+        <mat-label>{{field[0]}}</mat-label>
+        <input matInput type="color" [value]="field[1].value" (change)="fieldChange($event, field)">
+      </mat-form-field>
+      <div class="slider" *ngIf="field[1].type == 'slide'">
+        <div class="label">{{field[0]}}</div>
+        <mat-slider
+          color="primary"
+          thumbLabel
+          [value]="field[1].value"
+          [min]="field[1].min"
+          [max]="field[1].max"
+          (input)="fieldChange($event, field)"
+        ></mat-slider>
+      </div>
+      <div *ngIf="field[1].type == 'checkbox'">
+        <mat-slide-toggle [checked]="field[1].value"
+                          color="primary"
+                          (change)="fieldChange($event, field)"
+                          class="label">{{field[0]}}
+        </mat-slide-toggle>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,11 @@
+<div class="main-wraper">
+  <div class="side-bar" *ngIf="!loading" >
+    <app-side-bar *ngIf="actualRef" [title]="_vs.actual.name" [linkExp]="_vs.actual.exp" [visualization]="actualRef"></app-side-bar>
+  </div>
+  <div class="visualization-container">
+    <div class="c" #visualizationContainer></div>
+  </div>
+</div>
+<select #selector (change)="changeActualRef(selector.value)">
+  <option *ngFor="let visual of _vs.declared" [value]="visual.name">{{visual.name}}</option>
+</select>
