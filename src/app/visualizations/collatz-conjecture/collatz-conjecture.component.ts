@@ -20,6 +20,7 @@ export class CollatzConjectureComponent implements OnInit, AfterViewInit, OnDest
   color: Reasignable = new Reasignable('rgb(17,78,9)', 'color');
 
 
+
   constructor() {
   }
 

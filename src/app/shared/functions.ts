@@ -6,7 +6,7 @@ export function initCanvas(reference) {
 }
 
 export function clear(reference, color = 'white') {
-  reference.ctx.clearRect(- reference.canvas.width, - reference.canvas.height, reference.canvas.width * 2, reference.canvas.height * 2);
+  reference.ctx.clearRect(-reference.canvas.width, -reference.canvas.height, reference.canvas.width * 2, reference.canvas.height * 2);
   // reference.ctx.rect(0, 0, reference.canvas.width, reference.canvas.height);
   // reference.ctx.fillStyle = color;
   // reference.ctx.fill();
@@ -17,13 +17,16 @@ export function drawPoint(reference, x, y, color) {
   reference.ctx.fillRect(x, y, 1, 1);
 }
 
-export function beginShape(reference){
+export function beginShape(reference) {
   reference.ctx.beginPath();
   reference.ctx.moveTo(0, 0);
 }
 
-export function endShape(reference){
-  reference.ctx.closePath();
+export function endShape(reference, close = true) {
+  if (close) {
+    reference.ctx.closePath();
+
+  }
   reference.ctx.stroke();
 }
 
