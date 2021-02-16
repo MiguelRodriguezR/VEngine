@@ -10,9 +10,9 @@ import {clear, drawPoint, initCanvas} from '../../shared/functions';
 export class SinComponent implements OnInit, AfterViewInit, OnDestroy {
 
   gap = 0;
-  velocity: Reasignable = new Reasignable(1, 'number');
-  frequency: Reasignable = new Reasignable(100, 'number');
-  amplitude: Reasignable = new Reasignable(100, 'number');
+  velocity: Reasignable = new Reasignable(1, 'slide', {min: 1, max: 30});
+  frequency: Reasignable = new Reasignable(100, 'slide', {min: 50, max: 300});
+  amplitude: Reasignable = new Reasignable(100, 'slide', {min: 50, max: 300});
   canvas: HTMLCanvasElement;
   frame = null;
   ctx: any;

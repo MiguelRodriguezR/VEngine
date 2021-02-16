@@ -15,7 +15,7 @@ export class HilbertCurveComponent implements OnInit, AfterViewInit, OnDestroy {
 
   order: Reasignable = new Reasignable(6, 'number');
   velocity: Reasignable = new Reasignable(1, 'slide', {min: 1, max: 10});
-  lineWeight: Reasignable = new Reasignable(2, 'slide', {min: 1, max: 10});
+  lineWeight: Reasignable = new Reasignable(4, 'slide', {min: 1, max: 10});
   color: Reasignable = new Reasignable('#DDA15E', 'color');
   backgroundColor: Reasignable = new Reasignable('#BC6C25', 'color');
 
