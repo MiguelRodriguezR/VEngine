@@ -15,6 +15,7 @@ import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {MatButtonModule} from "@angular/material/button";
 import { CollatzConjectureComponent } from './visualizations/collatz-conjecture/collatz-conjecture.component';
 import { HilbertCurveComponent } from './visualizations/hilbert-curve/hilbert-curve.component';
+import { PerlinNoise3dComponent } from './visualizations/perlin-noise3d/perlin-noise3d.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { HilbertCurveComponent } from './visualizations/hilbert-curve/hilbert-cu
     MaurerRoseComponent,
     CollatzConjectureComponent,
     HilbertCurveComponent,
+    PerlinNoise3dComponent,
   ],
   imports: [
     BrowserModule,
