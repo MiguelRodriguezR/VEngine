@@ -158,7 +158,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }
       },
       directives: [_components_main_main_component__WEBPACK_IMPORTED_MODULE_1__["MainComponent"]],
-      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQubGVzcyJ9 */"]
+      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuLi9hcHAuY29tcG9uZW50Lmxlc3MifQ== */"]
     });
     /*@__PURE__*/
 
@@ -291,6 +291,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _visualizations_hilbert_curve_hilbert_curve_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(
     /*! ./visualizations/hilbert-curve/hilbert-curve.component */
     "./src/app/visualizations/hilbert-curve/hilbert-curve.component.ts");
+    /* harmony import */
+
+
+    var _visualizations_perlin_noise3d_perlin_noise3d_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(
+    /*! ./visualizations/perlin-noise3d/perlin-noise3d.component */
+    "./src/app/visualizations/perlin-noise3d/perlin-noise3d.component.ts");
 
     var AppModule = function AppModule() {
       _classCallCheck(this, AppModule);
@@ -310,7 +316,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     (function () {
       (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, {
-        declarations: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"], _components_main_main_component__WEBPACK_IMPORTED_MODULE_4__["MainComponent"], _components_side_bar_side_bar_component__WEBPACK_IMPORTED_MODULE_5__["SideBarComponent"], _visualizations_sin_sin_component__WEBPACK_IMPORTED_MODULE_7__["SinComponent"], _visualizations_maurer_rose_maurer_rose_component__WEBPACK_IMPORTED_MODULE_10__["MaurerRoseComponent"], _visualizations_collatz_conjecture_collatz_conjecture_component__WEBPACK_IMPORTED_MODULE_14__["CollatzConjectureComponent"], _visualizations_hilbert_curve_hilbert_curve_component__WEBPACK_IMPORTED_MODULE_15__["HilbertCurveComponent"]],
+        declarations: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"], _components_main_main_component__WEBPACK_IMPORTED_MODULE_4__["MainComponent"], _components_side_bar_side_bar_component__WEBPACK_IMPORTED_MODULE_5__["SideBarComponent"], _visualizations_sin_sin_component__WEBPACK_IMPORTED_MODULE_7__["SinComponent"], _visualizations_maurer_rose_maurer_rose_component__WEBPACK_IMPORTED_MODULE_10__["MaurerRoseComponent"], _visualizations_collatz_conjecture_collatz_conjecture_component__WEBPACK_IMPORTED_MODULE_14__["CollatzConjectureComponent"], _visualizations_hilbert_curve_hilbert_curve_component__WEBPACK_IMPORTED_MODULE_15__["HilbertCurveComponent"], _visualizations_perlin_noise3d_perlin_noise3d_component__WEBPACK_IMPORTED_MODULE_16__["PerlinNoise3dComponent"]],
         imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _angular_material_input__WEBPACK_IMPORTED_MODULE_8__["MatInputModule"], _angular_material_slider__WEBPACK_IMPORTED_MODULE_11__["MatSliderModule"], _angular_material_button__WEBPACK_IMPORTED_MODULE_13__["MatButtonModule"], _angular_material_slide_toggle__WEBPACK_IMPORTED_MODULE_12__["MatSlideToggleModule"], _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_9__["MatTooltipModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_6__["BrowserAnimationsModule"]]
       });
     })();
@@ -321,7 +327,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](AppModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
         args: [{
-          declarations: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"], _components_main_main_component__WEBPACK_IMPORTED_MODULE_4__["MainComponent"], _components_side_bar_side_bar_component__WEBPACK_IMPORTED_MODULE_5__["SideBarComponent"], _visualizations_sin_sin_component__WEBPACK_IMPORTED_MODULE_7__["SinComponent"], _visualizations_maurer_rose_maurer_rose_component__WEBPACK_IMPORTED_MODULE_10__["MaurerRoseComponent"], _visualizations_collatz_conjecture_collatz_conjecture_component__WEBPACK_IMPORTED_MODULE_14__["CollatzConjectureComponent"], _visualizations_hilbert_curve_hilbert_curve_component__WEBPACK_IMPORTED_MODULE_15__["HilbertCurveComponent"]],
+          declarations: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"], _components_main_main_component__WEBPACK_IMPORTED_MODULE_4__["MainComponent"], _components_side_bar_side_bar_component__WEBPACK_IMPORTED_MODULE_5__["SideBarComponent"], _visualizations_sin_sin_component__WEBPACK_IMPORTED_MODULE_7__["SinComponent"], _visualizations_maurer_rose_maurer_rose_component__WEBPACK_IMPORTED_MODULE_10__["MaurerRoseComponent"], _visualizations_collatz_conjecture_collatz_conjecture_component__WEBPACK_IMPORTED_MODULE_14__["CollatzConjectureComponent"], _visualizations_hilbert_curve_hilbert_curve_component__WEBPACK_IMPORTED_MODULE_15__["HilbertCurveComponent"], _visualizations_perlin_noise3d_perlin_noise3d_component__WEBPACK_IMPORTED_MODULE_16__["PerlinNoise3dComponent"]],
           imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _angular_material_input__WEBPACK_IMPORTED_MODULE_8__["MatInputModule"], _angular_material_slider__WEBPACK_IMPORTED_MODULE_11__["MatSliderModule"], _angular_material_button__WEBPACK_IMPORTED_MODULE_13__["MatButtonModule"], _angular_material_slide_toggle__WEBPACK_IMPORTED_MODULE_12__["MatSlideToggleModule"], _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_9__["MatTooltipModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_6__["BrowserAnimationsModule"]],
           providers: [],
           bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]]
@@ -548,7 +554,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }
       },
       directives: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["NgIf"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["NgForOf"], _side_bar_side_bar_component__WEBPACK_IMPORTED_MODULE_3__["SideBarComponent"]],
-      styles: [".main-wraper[_ngcontent-%COMP%] {\n  display: flex;\n}\n.visualization-container[_ngcontent-%COMP%] {\n  width: calc(100% - 200px);\n  height: 100vh;\n  overflow: hidden;\n}\n.c-btn[_ngcontent-%COMP%] {\n  width: 100%;\n}\nselect[_ngcontent-%COMP%] {\n  position: fixed;\n  right: 10px;\n  top: 10px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9tYWluL0M6L3BlcnNvbmFsL1Zpc3VhbGl6YXRpb25FbmdpbmUvVkVuZ2luZS9zcmMvYXBwL2NvbXBvbmVudHMvbWFpbi9tYWluLmNvbXBvbmVudC5sZXNzIiwic3JjL2FwcC9jb21wb25lbnRzL21haW4vbWFpbi5jb21wb25lbnQubGVzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGFBQUE7QUNDRjtBREVBO0VBQ0UseUJBQUE7RUFDQSxhQUFBO0VBQ0EsZ0JBQUE7QUNBRjtBREdBO0VBQ0UsV0FBQTtBQ0RGO0FESUE7RUFDRSxlQUFBO0VBQ0EsV0FBQTtFQUNBLFNBQUE7QUNGRiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvbWFpbi9tYWluLmNvbXBvbmVudC5sZXNzIiwic291cmNlc0NvbnRlbnQiOlsiLm1haW4td3JhcGVye1xuICBkaXNwbGF5OiBmbGV4O1xufVxuXG4udmlzdWFsaXphdGlvbi1jb250YWluZXJ7XG4gIHdpZHRoOiBjYWxjKDEwMCUgLSAyMDBweCk7XG4gIGhlaWdodDogMTAwdmg7XG4gIG92ZXJmbG93OiBoaWRkZW47XG59XG5cbi5jLWJ0bntcbiAgd2lkdGg6IDEwMCU7XG59XG5cbnNlbGVjdHtcbiAgcG9zaXRpb246IGZpeGVkO1xuICByaWdodDogMTBweDtcbiAgdG9wOiAxMHB4O1xufVxuIiwiLm1haW4td3JhcGVyIHtcbiAgZGlzcGxheTogZmxleDtcbn1cbi52aXN1YWxpemF0aW9uLWNvbnRhaW5lciB7XG4gIHdpZHRoOiBjYWxjKDEwMCUgLSAyMDBweCk7XG4gIGhlaWdodDogMTAwdmg7XG4gIG92ZXJmbG93OiBoaWRkZW47XG59XG4uYy1idG4ge1xuICB3aWR0aDogMTAwJTtcbn1cbnNlbGVjdCB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgcmlnaHQ6IDEwcHg7XG4gIHRvcDogMTBweDtcbn1cbiJdfQ== */"]
+      styles: [".main-wraper[_ngcontent-%COMP%] {\n  display: flex;\n}\n.visualization-container[_ngcontent-%COMP%] {\n  width: calc(100% - 200px);\n  height: 100vh;\n  overflow: hidden;\n}\n.c-btn[_ngcontent-%COMP%] {\n  width: 100%;\n}\nselect[_ngcontent-%COMP%] {\n  position: fixed;\n  right: 10px;\n  top: 10px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL2NvbXBvbmVudHMvbWFpbi9DOi9wZXJzb25hbC9WaXN1YWxpemF0aW9uRW5naW5lL1ZFbmdpbmUvc3JjL2FwcC9jb21wb25lbnRzL21haW4vbWFpbi5jb21wb25lbnQubGVzcyIsIi4uL2NvbXBvbmVudHMvbWFpbi9tYWluLmNvbXBvbmVudC5sZXNzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsYUFBQTtBQ0NGO0FERUE7RUFDRSx5QkFBQTtFQUNBLGFBQUE7RUFDQSxnQkFBQTtBQ0FGO0FER0E7RUFDRSxXQUFBO0FDREY7QURJQTtFQUNFLGVBQUE7RUFDQSxXQUFBO0VBQ0EsU0FBQTtBQ0ZGIiwiZmlsZSI6Ii4uL2NvbXBvbmVudHMvbWFpbi9tYWluLmNvbXBvbmVudC5sZXNzIiwic291cmNlc0NvbnRlbnQiOlsiLm1haW4td3JhcGVye1xuICBkaXNwbGF5OiBmbGV4O1xufVxuXG4udmlzdWFsaXphdGlvbi1jb250YWluZXJ7XG4gIHdpZHRoOiBjYWxjKDEwMCUgLSAyMDBweCk7XG4gIGhlaWdodDogMTAwdmg7XG4gIG92ZXJmbG93OiBoaWRkZW47XG59XG5cbi5jLWJ0bntcbiAgd2lkdGg6IDEwMCU7XG59XG5cbnNlbGVjdHtcbiAgcG9zaXRpb246IGZpeGVkO1xuICByaWdodDogMTBweDtcbiAgdG9wOiAxMHB4O1xufVxuIiwiLm1haW4td3JhcGVyIHtcbiAgZGlzcGxheTogZmxleDtcbn1cbi52aXN1YWxpemF0aW9uLWNvbnRhaW5lciB7XG4gIHdpZHRoOiBjYWxjKDEwMCUgLSAyMDBweCk7XG4gIGhlaWdodDogMTAwdmg7XG4gIG92ZXJmbG93OiBoaWRkZW47XG59XG4uYy1idG4ge1xuICB3aWR0aDogMTAwJTtcbn1cbnNlbGVjdCB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgcmlnaHQ6IDEwcHg7XG4gIHRvcDogMTBweDtcbn1cbiJdfQ== */"]
     });
     /*@__PURE__*/
 
@@ -975,7 +981,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }
       },
       directives: [_angular_material_button__WEBPACK_IMPORTED_MODULE_2__["MatAnchor"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_4__["MatTooltip"], _angular_material_form_field__WEBPACK_IMPORTED_MODULE_5__["MatFormField"], _angular_material_form_field__WEBPACK_IMPORTED_MODULE_5__["MatLabel"], _angular_material_input__WEBPACK_IMPORTED_MODULE_6__["MatInput"], _angular_material_slider__WEBPACK_IMPORTED_MODULE_7__["MatSlider"], _angular_material_slide_toggle__WEBPACK_IMPORTED_MODULE_8__["MatSlideToggle"]],
-      styles: [".main-container[_ngcontent-%COMP%] {\n  width: 200px;\n  height: 100vh;\n  background-color: #F3F3F3;\n  padding: 10px;\n  overflow-y: scroll;\n  overflow-x: hidden;\n}\n.side-title[_ngcontent-%COMP%], .side-subtitle[_ngcontent-%COMP%] {\n  margin-bottom: 20px;\n}\n.side-title[_ngcontent-%COMP%] {\n  font-size: 1.6em;\n}\n.slider[_ngcontent-%COMP%] {\n  margin-bottom: 10px;\n}\n.mat-slider-horizontal[_ngcontent-%COMP%] {\n  min-width: 149px !important;\n}\n.label[_ngcontent-%COMP%] {\n  color: rgba(0, 0, 0, 0.5);\n  font-size: 0.8em;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zaWRlLWJhci9DOi9wZXJzb25hbC9WaXN1YWxpemF0aW9uRW5naW5lL1ZFbmdpbmUvc3JjL2FwcC9jb21wb25lbnRzL3NpZGUtYmFyL3NpZGUtYmFyLmNvbXBvbmVudC5sZXNzIiwic3JjL2FwcC9jb21wb25lbnRzL3NpZGUtYmFyL3NpZGUtYmFyLmNvbXBvbmVudC5sZXNzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsWUFBQTtFQUNBLGFBQUE7RUFDQSx5QkFBQTtFQUNBLGFBQUE7RUFDQSxrQkFBQTtFQUNBLGtCQUFBO0FDQ0Y7QURFQTs7RUFDRSxtQkFBQTtBQ0NGO0FERUE7RUFDRSxnQkFBQTtBQ0FGO0FER0E7RUFDRSxtQkFBQTtBQ0RGO0FESUE7RUFDRSwyQkFBQTtBQ0ZGO0FES0E7RUFDRSx5QkFBQTtFQUNBLGdCQUFBO0FDSEYiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3NpZGUtYmFyL3NpZGUtYmFyLmNvbXBvbmVudC5sZXNzIiwic291cmNlc0NvbnRlbnQiOlsiLm1haW4tY29udGFpbmVye1xuICB3aWR0aDogMjAwcHg7XG4gIGhlaWdodDogMTAwdmg7XG4gIGJhY2tncm91bmQtY29sb3I6ICNGM0YzRjM7XG4gIHBhZGRpbmc6IDEwcHg7XG4gIG92ZXJmbG93LXk6IHNjcm9sbDtcbiAgb3ZlcmZsb3cteDogaGlkZGVuO1xufVxuXG4uc2lkZS10aXRsZSwgLnNpZGUtc3VidGl0bGV7XG4gIG1hcmdpbi1ib3R0b206IDIwcHg7XG59XG5cbi5zaWRlLXRpdGxle1xuICBmb250LXNpemU6IDEuNmVtO1xufVxuXG4uc2xpZGVye1xuICBtYXJnaW4tYm90dG9tOiAxMHB4O1xufVxuXG4ubWF0LXNsaWRlci1ob3Jpem9udGFsIHtcbiAgbWluLXdpZHRoOiAxNDlweCAhaW1wb3J0YW50O1xufVxuXG4ubGFiZWx7XG4gIGNvbG9yOiByZ2JhKDAsMCwwLDAuNSk7XG4gIGZvbnQtc2l6ZTogMC44ZW07XG59XG4iLCIubWFpbi1jb250YWluZXIge1xuICB3aWR0aDogMjAwcHg7XG4gIGhlaWdodDogMTAwdmg7XG4gIGJhY2tncm91bmQtY29sb3I6ICNGM0YzRjM7XG4gIHBhZGRpbmc6IDEwcHg7XG4gIG92ZXJmbG93LXk6IHNjcm9sbDtcbiAgb3ZlcmZsb3cteDogaGlkZGVuO1xufVxuLnNpZGUtdGl0bGUsXG4uc2lkZS1zdWJ0aXRsZSB7XG4gIG1hcmdpbi1ib3R0b206IDIwcHg7XG59XG4uc2lkZS10aXRsZSB7XG4gIGZvbnQtc2l6ZTogMS42ZW07XG59XG4uc2xpZGVyIHtcbiAgbWFyZ2luLWJvdHRvbTogMTBweDtcbn1cbi5tYXQtc2xpZGVyLWhvcml6b250YWwge1xuICBtaW4td2lkdGg6IDE0OXB4ICFpbXBvcnRhbnQ7XG59XG4ubGFiZWwge1xuICBjb2xvcjogcmdiYSgwLCAwLCAwLCAwLjUpO1xuICBmb250LXNpemU6IDAuOGVtO1xufVxuIl19 */"]
+      styles: [".main-container[_ngcontent-%COMP%] {\n  width: 200px;\n  height: 100vh;\n  background-color: #F3F3F3;\n  padding: 10px;\n  overflow-y: scroll;\n  overflow-x: hidden;\n}\n.side-title[_ngcontent-%COMP%], .side-subtitle[_ngcontent-%COMP%] {\n  margin-bottom: 20px;\n}\n.side-title[_ngcontent-%COMP%] {\n  font-size: 1.6em;\n}\n.slider[_ngcontent-%COMP%] {\n  margin-bottom: 10px;\n}\n.mat-slider-horizontal[_ngcontent-%COMP%] {\n  min-width: 149px !important;\n}\n.label[_ngcontent-%COMP%] {\n  color: rgba(0, 0, 0, 0.5);\n  font-size: 0.8em;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL2NvbXBvbmVudHMvc2lkZS1iYXIvQzovcGVyc29uYWwvVmlzdWFsaXphdGlvbkVuZ2luZS9WRW5naW5lL3NyYy9hcHAvY29tcG9uZW50cy9zaWRlLWJhci9zaWRlLWJhci5jb21wb25lbnQubGVzcyIsIi4uL2NvbXBvbmVudHMvc2lkZS1iYXIvc2lkZS1iYXIuY29tcG9uZW50Lmxlc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxZQUFBO0VBQ0EsYUFBQTtFQUNBLHlCQUFBO0VBQ0EsYUFBQTtFQUNBLGtCQUFBO0VBQ0Esa0JBQUE7QUNDRjtBREVBOztFQUNFLG1CQUFBO0FDQ0Y7QURFQTtFQUNFLGdCQUFBO0FDQUY7QURHQTtFQUNFLG1CQUFBO0FDREY7QURJQTtFQUNFLDJCQUFBO0FDRkY7QURLQTtFQUNFLHlCQUFBO0VBQ0EsZ0JBQUE7QUNIRiIsImZpbGUiOiIuLi9jb21wb25lbnRzL3NpZGUtYmFyL3NpZGUtYmFyLmNvbXBvbmVudC5sZXNzIiwic291cmNlc0NvbnRlbnQiOlsiLm1haW4tY29udGFpbmVye1xuICB3aWR0aDogMjAwcHg7XG4gIGhlaWdodDogMTAwdmg7XG4gIGJhY2tncm91bmQtY29sb3I6ICNGM0YzRjM7XG4gIHBhZGRpbmc6IDEwcHg7XG4gIG92ZXJmbG93LXk6IHNjcm9sbDtcbiAgb3ZlcmZsb3cteDogaGlkZGVuO1xufVxuXG4uc2lkZS10aXRsZSwgLnNpZGUtc3VidGl0bGV7XG4gIG1hcmdpbi1ib3R0b206IDIwcHg7XG59XG5cbi5zaWRlLXRpdGxle1xuICBmb250LXNpemU6IDEuNmVtO1xufVxuXG4uc2xpZGVye1xuICBtYXJnaW4tYm90dG9tOiAxMHB4O1xufVxuXG4ubWF0LXNsaWRlci1ob3Jpem9udGFsIHtcbiAgbWluLXdpZHRoOiAxNDlweCAhaW1wb3J0YW50O1xufVxuXG4ubGFiZWx7XG4gIGNvbG9yOiByZ2JhKDAsMCwwLDAuNSk7XG4gIGZvbnQtc2l6ZTogMC44ZW07XG59XG4iLCIubWFpbi1jb250YWluZXIge1xuICB3aWR0aDogMjAwcHg7XG4gIGhlaWdodDogMTAwdmg7XG4gIGJhY2tncm91bmQtY29sb3I6ICNGM0YzRjM7XG4gIHBhZGRpbmc6IDEwcHg7XG4gIG92ZXJmbG93LXk6IHNjcm9sbDtcbiAgb3ZlcmZsb3cteDogaGlkZGVuO1xufVxuLnNpZGUtdGl0bGUsXG4uc2lkZS1zdWJ0aXRsZSB7XG4gIG1hcmdpbi1ib3R0b206IDIwcHg7XG59XG4uc2lkZS10aXRsZSB7XG4gIGZvbnQtc2l6ZTogMS42ZW07XG59XG4uc2xpZGVyIHtcbiAgbWFyZ2luLWJvdHRvbTogMTBweDtcbn1cbi5tYXQtc2xpZGVyLWhvcml6b250YWwge1xuICBtaW4td2lkdGg6IDE0OXB4ICFpbXBvcnRhbnQ7XG59XG4ubGFiZWwge1xuICBjb2xvcjogcmdiYSgwLCAwLCAwLCAwLjUpO1xuICBmb250LXNpemU6IDAuOGVtO1xufVxuIl19 */"]
     });
     /*@__PURE__*/
 
@@ -1094,11 +1100,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _visualizations_hilbert_curve_hilbert_curve_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! ../visualizations/hilbert-curve/hilbert-curve.component */
     "./src/app/visualizations/hilbert-curve/hilbert-curve.component.ts");
+    /* harmony import */
+
+
+    var _visualizations_perlin_noise3d_perlin_noise3d_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    /*! ../visualizations/perlin-noise3d/perlin-noise3d.component */
+    "./src/app/visualizations/perlin-noise3d/perlin-noise3d.component.ts");
 
     var VisualizationsService = function VisualizationsService() {
       _classCallCheck(this, VisualizationsService);
 
       this.declared = [{
+        component: _visualizations_perlin_noise3d_perlin_noise3d_component__WEBPACK_IMPORTED_MODULE_5__["PerlinNoise3dComponent"],
+        name: 'Perlin Noise 3d',
+        exp: 'https://en.wikipedia.org/wiki/Perlin_noise'
+      }, {
         component: _visualizations_hilbert_curve_hilbert_curve_component__WEBPACK_IMPORTED_MODULE_4__["HilbertCurveComponent"],
         name: 'Hilbert Curve',
         exp: 'https://en.wikipedia.org/wiki/Hilbert_curve'
@@ -1149,7 +1165,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     !*** ./src/app/shared/functions.ts ***!
     \*************************************/
 
-  /*! exports provided: initCanvas, clear, drawPoint, beginShape, endShape, toDegrees, toRadians */
+  /*! exports provided: initCanvas, clear, clear3D, drawPoint, beginShape, endShape, toDegrees, toRadians */
 
   /***/
   function srcAppSharedFunctionsTs(module, __webpack_exports__, __webpack_require__) {
@@ -1167,6 +1183,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     __webpack_require__.d(__webpack_exports__, "clear", function () {
       return clear;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "clear3D", function () {
+      return clear3D;
     });
     /* harmony export (binding) */
 
@@ -1200,8 +1222,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     });
 
     function initCanvas(reference) {
+      var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
       reference.canvas = Array.from(document.querySelectorAll('canvas')).reverse()[0];
-      reference.ctx = reference.canvas.getContext('2d');
+      reference.ctx = reference.canvas.getContext(options.dimention ? options.dimention : '2d');
       reference.ctx.canvas.width = window.innerWidth - 200;
       reference.ctx.canvas.height = window.innerHeight;
     }
@@ -1211,6 +1234,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       reference.ctx.clearRect(-reference.canvas.width, -reference.canvas.height, reference.canvas.width * 2, reference.canvas.height * 2); // reference.ctx.rect(0, 0, reference.canvas.width, reference.canvas.height);
       // reference.ctx.fillStyle = color;
       // reference.ctx.fill();
+    }
+
+    function clear3D(reference) {
+      reference.ctx.clearColor(255, 255, 255, 1);
+      reference.ctx.clear(reference.ctx.COLOR_BUFFER_BIT);
     }
 
     function drawPoint(reference, x, y, color) {
@@ -1389,7 +1417,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "canvas", 0);
         }
       },
-      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3Zpc3VhbGl6YXRpb25zL2NvbGxhdHotY29uamVjdHVyZS9jb2xsYXR6LWNvbmplY3R1cmUuY29tcG9uZW50Lmxlc3MifQ== */"]
+      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJjb2xsYXR6LWNvbmplY3R1cmUvY29sbGF0ei1jb25qZWN0dXJlLmNvbXBvbmVudC5sZXNzIn0= */"]
     });
     /*@__PURE__*/
 
@@ -1607,7 +1635,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "canvas", 0);
         }
       },
-      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3Zpc3VhbGl6YXRpb25zL2hpbGJlcnQtY3VydmUvaGlsYmVydC1jdXJ2ZS5jb21wb25lbnQubGVzcyJ9 */"]
+      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJoaWxiZXJ0LWN1cnZlL2hpbGJlcnQtY3VydmUuY29tcG9uZW50Lmxlc3MifQ== */"]
     });
     /*@__PURE__*/
 
@@ -1757,7 +1785,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "canvas", 0);
         }
       },
-      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3Zpc3VhbGl6YXRpb25zL21hdXJlci1yb3NlL21hdXJlci1yb3NlLmNvbXBvbmVudC5sZXNzIn0= */"]
+      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJtYXVyZXItcm9zZS9tYXVyZXItcm9zZS5jb21wb25lbnQubGVzcyJ9 */"]
     });
     /*@__PURE__*/
 
@@ -1768,6 +1796,239 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           selector: 'app-maurer-rose',
           templateUrl: './maurer-rose.component.html',
           styleUrls: ['./maurer-rose.component.less']
+        }]
+      }], function () {
+        return [];
+      }, null);
+    })();
+    /***/
+
+  },
+
+  /***/
+  "./src/app/visualizations/perlin-noise3d/perlin-noise3d.component.ts":
+  /*!***************************************************************************!*\
+    !*** ./src/app/visualizations/perlin-noise3d/perlin-noise3d.component.ts ***!
+    \***************************************************************************/
+
+  /*! exports provided: PerlinNoise3dComponent */
+
+  /***/
+  function srcAppVisualizationsPerlinNoise3dPerlinNoise3dComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "PerlinNoise3dComponent", function () {
+      return PerlinNoise3dComponent;
+    });
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _entities_reasignable__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ../../entities/reasignable */
+    "./src/app/entities/reasignable.ts");
+    /* harmony import */
+
+
+    var p5__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! p5 */
+    "./node_modules/p5/lib/p5.min.js");
+    /* harmony import */
+
+
+    var p5__WEBPACK_IMPORTED_MODULE_2___default =
+    /*#__PURE__*/
+    __webpack_require__.n(p5__WEBPACK_IMPORTED_MODULE_2__);
+
+    var component = null;
+
+    var PerlinNoise3dComponent =
+    /*#__PURE__*/
+    function () {
+      function PerlinNoise3dComponent() {
+        var _this2 = this;
+
+        _classCallCheck(this, PerlinNoise3dComponent);
+
+        this.scale = new _entities_reasignable__WEBPACK_IMPORTED_MODULE_1__["Reasignable"](30, 'slide', {
+          min: 10,
+          max: 100
+        });
+        this.width = new _entities_reasignable__WEBPACK_IMPORTED_MODULE_1__["Reasignable"](1000, 'slide', {
+          min: 500,
+          max: 3000
+        });
+        this.height = new _entities_reasignable__WEBPACK_IMPORTED_MODULE_1__["Reasignable"](800, 'slide', {
+          min: 500,
+          max: 3000
+        });
+        this.noiseY = new _entities_reasignable__WEBPACK_IMPORTED_MODULE_1__["Reasignable"](100, 'slide', {
+          min: 0,
+          max: 500
+        });
+        this.noiseX = new _entities_reasignable__WEBPACK_IMPORTED_MODULE_1__["Reasignable"](-100, 'slide', {
+          min: -200,
+          max: 500
+        });
+        this.terrainOpacity = new _entities_reasignable__WEBPACK_IMPORTED_MODULE_1__["Reasignable"](30, 'slide', {
+          min: 0,
+          max: 400
+        });
+        this.xRotation = new _entities_reasignable__WEBPACK_IMPORTED_MODULE_1__["Reasignable"](30, 'slide', {
+          min: 10,
+          max: 100
+        });
+        this.backgroundColor = new _entities_reasignable__WEBPACK_IMPORTED_MODULE_1__["Reasignable"]('#000000', 'color');
+        this.noStroke = new _entities_reasignable__WEBPACK_IMPORTED_MODULE_1__["Reasignable"](false, 'checkbox');
+
+        this.onWindowResize = function (e) {
+          _this2.p5.resizeCanvas(_this2.p5.windowWidth, _this2.p5.windowHeight);
+        };
+
+        this.createCanvas = function () {
+          console.log('creating canvas');
+          _this2.p5 = new p5__WEBPACK_IMPORTED_MODULE_2__(_this2.drawing);
+          console.log(_this2.p5);
+        };
+
+        this.destroyCanvas = function () {
+          console.log('destroying canvas');
+
+          _this2.p5.noCanvas();
+
+          _this2.p5.remove();
+        };
+
+        this.drawing = function (p) {
+          var cols, rows;
+          var lastCols = 0;
+          var lastRows = 0;
+          var scl = component.scale.value;
+          var w = component.width.value;
+          var h = component.height.value;
+          var flying = 0;
+          var terrain = [];
+
+          var initAll = function initAll() {
+            scl = component.scale.value;
+            w = component.width.value;
+            h = component.height.value;
+            cols = w / scl;
+            rows = h / scl;
+            if (cols == lastCols && rows == lastRows) return;
+            lastCols = cols;
+            lastRows = rows;
+
+            for (var x = 0; x < cols; x++) {
+              terrain[x] = [];
+
+              for (var y = 0; y < rows; y++) {
+                terrain[x][y] = 0;
+              }
+            }
+          };
+
+          p.setup = function () {
+            p.createCanvas(p.windowWidth, p.windowHeight, p.WEBGL).parent('p5canvas');
+            initAll();
+          };
+
+          p.draw = function () {
+            initAll();
+            flying -= 0.1;
+            var yoff = flying;
+
+            for (var y = 0; y < rows; y++) {
+              var xoff = 0;
+
+              for (var x = 0; x < cols; x++) {
+                terrain[x][y] = p.map(p.noise(xoff, yoff), 0, 1, component.noiseX.value, component.noiseY.value);
+                xoff += 0.2;
+              }
+
+              yoff += 0.2;
+            }
+
+            p.background(component.backgroundColor.value);
+            p.translate(0, 50);
+            p.rotateX(p.PI / (0.1 * component.xRotation.value));
+            p.fill(200, 200, 200, component.terrainOpacity.value);
+            p.translate(-w / 2, -h / 2);
+
+            for (var _y = 0; _y < rows - 1; _y++) {
+              p.beginShape(p.TRIANGLE_STRIP);
+              if (component.noStroke.value) p.noStroke();else {
+                p.strokeWeight(1);
+                p.stroke(0);
+              }
+
+              for (var _x = 0; _x < cols; _x++) {
+                p.vertex(_x * scl, _y * scl, terrain[_x][_y]);
+                p.vertex(_x * scl, (_y + 1) * scl, terrain[_x][_y + 1]);
+              }
+
+              p.endShape();
+            }
+          };
+        };
+
+        console.log('Analog-constructed');
+        window.onresize = this.onWindowResize;
+        component = this;
+      }
+
+      _createClass(PerlinNoise3dComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {
+          console.log('analog-init');
+          this.createCanvas();
+        }
+      }, {
+        key: "ngOnDestroy",
+        value: function ngOnDestroy() {
+          this.destroyCanvas();
+          console.log('analog-destroy');
+        }
+      }]);
+
+      return PerlinNoise3dComponent;
+    }();
+
+    PerlinNoise3dComponent.ɵfac = function PerlinNoise3dComponent_Factory(t) {
+      return new (t || PerlinNoise3dComponent)();
+    };
+
+    PerlinNoise3dComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+      type: PerlinNoise3dComponent,
+      selectors: [["app-perlin-noise3d"]],
+      decls: 1,
+      vars: 0,
+      consts: [["id", "p5canvas"]],
+      template: function PerlinNoise3dComponent_Template(rf, ctx) {
+        if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "div", 0);
+        }
+      },
+      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJwZXJsaW4tbm9pc2UzZC9wZXJsaW4tbm9pc2UzZC5jb21wb25lbnQubGVzcyJ9 */"]
+    });
+    /*@__PURE__*/
+
+    (function () {
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](PerlinNoise3dComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+          selector: 'app-perlin-noise3d',
+          templateUrl: './perlin-noise3d.component.html',
+          styleUrls: ['./perlin-noise3d.component.less']
         }]
       }], function () {
         return [];
@@ -1900,7 +2161,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "canvas", 0);
         }
       },
-      styles: ["canvas[_ngcontent-%COMP%] {\n  background-color: black;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvdmlzdWFsaXphdGlvbnMvc2luL0M6L3BlcnNvbmFsL1Zpc3VhbGl6YXRpb25FbmdpbmUvVkVuZ2luZS9zcmMvYXBwL3Zpc3VhbGl6YXRpb25zL3Npbi9zaW4uY29tcG9uZW50Lmxlc3MiLCJzcmMvYXBwL3Zpc3VhbGl6YXRpb25zL3Npbi9zaW4uY29tcG9uZW50Lmxlc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSx1QkFBQTtBQ0NGIiwiZmlsZSI6InNyYy9hcHAvdmlzdWFsaXphdGlvbnMvc2luL3Npbi5jb21wb25lbnQubGVzcyIsInNvdXJjZXNDb250ZW50IjpbImNhbnZhcyB7XG4gIGJhY2tncm91bmQtY29sb3I6IGJsYWNrO1xufVxuIiwiY2FudmFzIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogYmxhY2s7XG59XG4iXX0= */"]
+      styles: ["canvas[_ngcontent-%COMP%] {\n  background-color: black;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNpbi9DOi9wZXJzb25hbC9WaXN1YWxpemF0aW9uRW5naW5lL1ZFbmdpbmUvc3JjL2FwcC92aXN1YWxpemF0aW9ucy9zaW4vc2luLmNvbXBvbmVudC5sZXNzIiwic2luL3Npbi5jb21wb25lbnQubGVzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLHVCQUFBO0FDQ0YiLCJmaWxlIjoic2luL3Npbi5jb21wb25lbnQubGVzcyIsInNvdXJjZXNDb250ZW50IjpbImNhbnZhcyB7XG4gIGJhY2tncm91bmQtY29sb3I6IGJsYWNrO1xufVxuIiwiY2FudmFzIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogYmxhY2s7XG59XG4iXX0= */"]
     });
     /*@__PURE__*/
 
